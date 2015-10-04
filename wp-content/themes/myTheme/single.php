@@ -15,9 +15,9 @@ the_post();
 
 
 		<div class = "container">
-			
+			<?php the_title("<h1>","</h1>");?>
 			<?php the_post_thumbnail('large');?>
-			<?php the_title();?>
+			
 			<?php the_content();?>
 		
 		</div>

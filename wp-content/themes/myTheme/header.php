@@ -13,7 +13,7 @@
            
             <img  id="logo"  src="<?=$T_P?>/pic/logo.png" alt="logo"/>
 			<?php 
-			   topmenu();
+			   topMenu();
 			?>
 		    	
 <!--            <ul class="menuList" >

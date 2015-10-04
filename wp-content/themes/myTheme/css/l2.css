@@ -36,11 +36,11 @@ header{
     margin-top: 33px;
     
 }
-header ul{
+.menuList ul{
     margin: 0;
     padding: 0;
 }
-header ul li{  
+.menuList li{  
     display: inline;
     margin: 18px ;
     font-weight: bold;
@@ -316,14 +316,17 @@ footer{
 
 
 footer h4{
-    padding-bottom:  21px;
+    //padding-bottom:  21px;
     font-weight: 900;
 }
-footer img{
-    padding: 23px;
-}
- /*new */
 
+ /*new */
+footer .menu-bottom-menu-container{
+    padding-bottom: 60px;
+}
+footer .menuList li{
+    padding:  0px calc(100%/28)  0px 0px ; 
+}
 
 .news .content{
      padding-bottom: 25px;
@@ -368,5 +371,9 @@ footer img{
     margin-right: 10px;
 }
 .news .postNews{
+    text-align: justify;
+}
+
+.container p{
     text-align: justify;
 }
