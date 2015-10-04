@@ -11,7 +11,7 @@
 		<?php wp_admin_bar_header()?>
         <header class="fullscrtoWidth">
            
-            <img  id="logo"  src="<?=$T_P?>/pic/logo.png" alt="logo"/>
+			<a href="/">  <img  id="logo"  src="<?=$T_P?>/pic/logo.png" alt="logo"/></a>
 			<?php 
 			   topMenu();
 			?>

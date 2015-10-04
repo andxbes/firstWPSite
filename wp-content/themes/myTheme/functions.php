@@ -17,6 +17,7 @@ function load_styles_and_scripts() {
 	
 }
 
+
 add_action(wp_enqueue_scripts(), load_styles_and_scripts());
 
 
@@ -51,3 +52,5 @@ function bottomMenu() {
  * делаем возможным подключение миниатюр записи   
  ***/
 add_theme_support('post-thumbnails');
+
+
