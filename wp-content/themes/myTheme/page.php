@@ -5,7 +5,6 @@
 get_header();
 ?>
 
-page
 <div id="primary" class="fullscrtoWidth">
 	<div class="baseSize content arrow_box" >
 
