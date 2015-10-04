@@ -18,7 +18,7 @@
 
 
 
-		<div class=" content arrow_box">
+		<div class=" content line">
 			<?php the_post_thumbnail( 'thumbnail' ) ?>
 			<div class="postNews">
 				<h4><?php the_title(); ?></h4>
