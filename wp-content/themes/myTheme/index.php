@@ -260,4 +260,3 @@
 
 <?php
 	get_footer();
-
