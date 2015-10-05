@@ -105,7 +105,7 @@ footer{
     padding-right: 30px;
 }
 
-.row{
+.blueLine .row{
     display: table-row;
 }
 
@@ -374,6 +374,16 @@ footer .menuList li{
     text-align: justify;
 }
 
-.container p{
+.container p,
+.postNews p{
     text-align: justify;
 }
+
+.post-categories {
+    list-style: none !important;
+}
+
+.postNews p{
+    padding-top:10px;
+}
+
