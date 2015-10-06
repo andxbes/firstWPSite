@@ -1,11 +1,11 @@
 
 <?php
 /*
- * Template name: Шаблон рубрик
+ * Template name: Шаблон жанров
  */
 ?>
 <?php get_header(); ?>
-
+Жанры
 <article class="news">
 
 
@@ -56,7 +56,8 @@
 
 </article>
 
-<?php get_footer(); 
+<?php get_footer(); ?>
+
 
 
 

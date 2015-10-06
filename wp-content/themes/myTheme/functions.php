@@ -36,7 +36,7 @@ function topMenu() {
 	wp_nav_menu(array(
 		'theme_location'=>'header-menu',
 		'menu' => 'header-menu',
-		'menu_class'=> 'menuList'
+		'menu_class'=> 'menuList_plusSub'
 		));
 }
 
